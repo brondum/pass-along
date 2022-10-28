@@ -6,7 +6,7 @@ executors:
       - image: cimg/go:1.19
   docker_image:
     docker:
-      - image: cimg/base:stable-18.04
+      - image: cimg/base:stable-20.04
 
 commands:
   docker_build:
